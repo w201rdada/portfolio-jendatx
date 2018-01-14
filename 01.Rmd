@@ -1,5 +1,7 @@
 # PooooK Prose Knuckles {#Keyboard-free keyboarding anytime/anywhere. Like brass knuckles for the information age. }
 
+![Version 0 prototype design](https://www.tinkercad.com/things/lhtwWvAY6uq-pooook/editv2?sharecode=fR7Txzrwx9HPODvL4AU8lBYIOCDa6Oi-S7Rup9RiUZM%3D&sharecode=SV5gFkgziXfNwgx1JImv339PiC8FtqCVxpTuOlFJKlk=)
+
 #### Keywords {wearables, touch typing, keyboarding, knuckles}
 
  With the miniature accelerometers now available, anyone who can touch-type on a keyboard should be able to ditch that hardware and instead compose their prose from any surface at hand: perhaps a lunch counter, a steering wheel, a shelf, or one's own legs. The PooooK Prose Knuckles concept is to embed the necessary circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. Just pair them with your smartphone, parrot a few sample prompts to train the software, and you're good to go for hours of keyboard-free expression.
