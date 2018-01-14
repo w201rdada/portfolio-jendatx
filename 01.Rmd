@@ -1,24 +1,26 @@
-# My first cool idea {#slug-one}
+# PooooK Prose Knuckles {#Keyboard-free keyboarding anytime/anywhere. Like brass knuckles for the information age. }
 
-#### Keywords {-}
+#### Keywords {wearables, touch typing, keyboarding, knuckles}
 
-yaba, daba, do
+ With the miniature accelerometers now available, anyone who can touch-type on a keyboard should be able to ditch that hardware and instead compose their prose from any surface at hand: perhaps a lunch counter, a steering wheel, a shelf, or one's own legs. The PooooK Prose Knuckles concept is to embed the necessary circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. Just pair them with your smartphone, parrot a few sample prompts to train the software, and you're good to go for hours of keyboard-free expression.
 
-## A beginning.
+## The Keyboard Crutch
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+It never fails: you finally step out for lunch and then your phone blows up with texts, slack messages, and emails. You spend your "break" only half-conversing with the colleagues you like (while mentally composing responses you can't send to those you don't - until you're back to your desk). Or else you spend the entire time rudely face-down in your black mirror, typing with 1 or 2 fingers at a tenth your normal speed. Few would step out to place a phone call nowadays, especially when such can be so easily overheard by the wrong people, while leaving no traceable/searchable reference for the right people.  
 
-## A middle.
+It's not just desk workers who could benefit from board-cutting in addition to cord-cutting. Consider the journalist or scientist out in the field, the doctor already prepped for surgery, the cop out walking the beat. Silently capturing observations or executing precise searches - just-in-time - could be invaluable.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+Let's kick our species' reliance on keyboards to the curb. Someday soon, they're going to look about as antiquated as the punch card.
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+## Kicking the Keyboard Habit
 
-## An end.
+Building on the [Ring GINA wearable computer interaction devices](/http://www-bsac.eecs.berkeley.edu/publications/search/send_publication_pdf2client.php?pubID=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the PooooK flexible knuckle-sets would first be 3D printed and accelerometers, Bluetooth connectors, and batteries would be inserted with hand-assembly.  
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+Prototype users with measurably-strong QWERTY and/or Dvorak touch-typing skills would be needed to assist with the machine learning portion of the project. Inputs of known alphanumeric characters, words and other strings would be taught from a spectrum of surfaces including hard and soft flat horizontal and vertical expanses to surfaces with curvature (like legs and steering wheels). In all cases, users would be training their own personalized input algorithms, and patterns detected by the team could become part of a base common denominator algorithm (to make training requirements shorter for each generation of user: alpha, beta, etc.).  
+
+## The Post-Keyboard Era
+
+Once we're free of keyboards, we can get out into the world more and record better the truth of what we find, as well as what we think about it. Who hasn't taken a hike, freeing the mind to bring forth the answer to a pressing problem? Similar to going wireless, going keyboard-less will free us to communicate more widely - yet more precisely.
+
+In addition, there are millions of people for whom smartphones are their only means of connection to the information age. Without full-size keyboard hardware to make composition easy and efficient, it's possible that some feel relegated to the role of information accessors, not as much information contributors. It's time we stopped missing out on their contributions. Inexpensive wearable input devices could bring us all closer to the global community we deserve.
