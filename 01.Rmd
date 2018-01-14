@@ -1,6 +1,6 @@
 # PooooK Prose Knuckles {#Keyboard-free keyboarding anytime/anywhere. Like brass knuckles for the information age. }
 
-![Version 0 prototype design](https://www.tinkercad.com/things/lhtwWvAY6uq-pooook/editv2?sharecode=fR7Txzrwx9HPODvL4AU8lBYIOCDa6Oi-S7Rup9RiUZM%3D&sharecode=SV5gFkgziXfNwgx1JImv339PiC8FtqCVxpTuOlFJKlk=)
+![Version 0 prototype design](https://github.com/w201rdada/portfolio-jendatx/blob/master/Pooook_proto_Tinkercad.png)
 
 #### Keywords {wearables, touch typing, keyboarding, knuckles}
 
