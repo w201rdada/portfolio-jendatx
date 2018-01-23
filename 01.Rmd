@@ -36,13 +36,13 @@ Building on the [Ring GINA wearable computer interaction devices](/http://www-bs
 Prototype users with measurably-strong [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. Beginning on the keyboards themselves, Pooook wearers would parrot prompted alphanumeric characters, and the software would learn how to classify accelerated movement in x-y-z space patterns (inclusive of primary-motion digit AND adjacent digits) into various tiers of increasingly-complex inputs, for example:
 
  * Tier 1 letters: "a" vs "q" and "z", "f" vs "r" and "v", etc.
- * Tier 2 punctuation: <spacebar>, <return>, "'", ",", ".", ";"
- * Tier 3 capital letters requiring shifting
- * Tier 4 punctuation requiring shifting (e.g. "?", quotes, etc.)
- * Tier 5 numbers
- * Tier 6 special characters
+ * Tier 2 essential punctuation: spacebar, return, apostrophe, comma, period, semi-colon
+ * Tier 3 punctuation requiring shifting (e.g. "?", quotes, colon etc.)
+ * Tier 4 capital letters (again requiring shifting)
+ * Tier 5 numbers (based on user feedback, version 1 may approach via number-keypad)
+ * Tier 6 special characters (@, $, %, +, -, \*, /, etc.)
 
- "Ground truth" for machine learning would always begin with keyboards present PLUS characters, words, and then strings prompted onscreen for user reference. Later tests would move on to user-improvised content, with feedback on accuracy supplied by typist participants. Once accuracy of the software is solid on the keyboards, the team will move on to keyboard-less input (first prompted, then improvised) on flat, hard horizontal surfaces. Over time, slanted/vertical solid surfaces and then ultimately pliant and/or curved surfaces (like the users' own legs) would be trained. Both group patterns and personalization of the software will be of interest, as we'll seek to make the product's base "common-denominator" algorithm better and better over time...so later generations of Pooook customers will experience snappy training times (and less frustration) for their own personal Pooook devices.   
+ "Ground truth" for machine learning would always begin with keyboards present AND intended characters prompted onscreen for typist reference. Later tests would move on to user-improvised content, with feedback on accuracy supplied by the typist participants. Once accuracy of the software is solid while keyboards are present, the team will move on to keyboard-less input (first prompted, then improvised) on flat, hard horizontal surfaces. Over time, slanted/vertical solid surfaces and then ultimately pliant and/or curved surfaces (like the users' own legs) would be trained. Both group patterns and personalization of the software will be of interest, as we'll seek to make the product's base "common-denominator" algorithm better and better over time...so later generations of Pooook customers will experience snappy training times (and less frustration) for their own personal Pooook devices.   
 
 ## The Post-Keyboard Era
 
