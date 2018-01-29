@@ -4,19 +4,19 @@
 
 #### Keywords {wearables, touch typing, keyboarding, knuckles}
 
- With the miniature accelerometers now available, anyone who can touch-type on a keyboard should be able to ditch that bulky ⌨️ gear and instead compose their prose from any surface at hand, perhaps:
+ With the [miniature accelerometers](https://en.wikipedia.org/wiki/Accelerometer#Motion_input) now available, anyone who can touch-type on a keyboard should be able to ditch that bulky ⌨️ gear and instead compose their prose from any convenient surface literally at hand, for instance:
 
   * a lunch counter,
   * an arm chair, or
   * even one's own legs.
 
-  The Pooook Prose Knuckles concept is to embed the necessary sensor circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. Just pair them with your smartphone and parrot a few sample prompts to train your personalized keyboard-free Pooooks.
+  The Pooook Prose Knuckles concept is to embed the necessary sensor circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. The owner of a pair of Pooooks would pair them with a phone or tablet, and then simply parrot a few on-screen prompts to train their personalized wearables to interpret their keyboard-free input.
 
 ## The Keyboard Crutch
 
-It never fails: you finally step out for lunch and then your 📱 blows up with texts, slack messages, and emails. You spend your mid-day "break" face-down in your phone, or else half-conversing with your preferred colleagues (while mentally composing responses you'll send to non-preferred colleagues - once back at your desk).
+It never fails: one finally steps out for lunch when one's phone blows up with texts, messages, and emails 🔥📱🔥. The mid-day "break" is spent face-down in the black mirror, or else distractedly conversing with preferred colleagues (while mentally composing and attempting to remember intended replies until back at one's keyboard).
 
-It's not just desk workers who could benefit from board-cutting in addition to cord-cutting. Consider:
+It's not just desk workers who could benefit from *board-cutting* in addition to cord-cutting. Consider:
 
 * the farmer 👨‍🌾 inspecting a field,
 * the scientist 👨🏾‍🔬 elbows-deep in an experiment,
@@ -29,11 +29,11 @@ In all of the above cases, silently capturing observations (or executing just-in
 
 It's time we kicked our species' reliance on the ⌨️  to the curb. Someday soon, they're going to look about as antiquated as the punch card.
 
-## How Data Science can Help Kick the Keyboard Habit
+## How Data Science can help Kick the Keyboard Habit
 
-Building on the [Ring GINA wearable computer interaction devices](http://www-bsac.eecs.berkeley.edu/publications/search/zoom.php?urltimestamp=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and ⌚-style "self-winding" batteries.
+Building on the [Ring GINA wearable computer interaction devices](http://www-bsac.eecs.berkeley.edu/publications/search/zoom.php?urltimestamp=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and wristwatch-style "self-winding" batteries.
 
-Prototype users with measurably-strong [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. Beginning on the keyboards themselves, Pooook wearers would parrot prompted alphanumeric characters, and the software would learn how to classify accelerated movement in x-y-z space patterns (inclusive of primary-motion digit AND adjacent digits) into various tiers of increasingly-complex inputs, for example:
+Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. For each tier in the increasingly-complex standard inputs noted below, the data science team would design software to classify Pooook-sensed accelerated finger movements in x-y-z space:
 
  * Tier 1 letters: "a" vs "q" and "z", "f" vs "r" and "v", etc.
  * Tier 2 essential punctuation: spacebar, return, apostrophe, comma, period, semi-colon
@@ -42,17 +42,18 @@ Prototype users with measurably-strong [QWERTY](https://en.wikipedia.org/wiki/QW
  * Tier 5 numbers (based on user feedback, version 1 may approach via number-keypad)
  * Tier 6 special characters (@, $, %, +, -, \*, /, etc.)
 
-For each tier, the "ground truth" for machine learning must always begin with keyboards under the hands of Pooook-wearing typists, who input screen-prompted characters, words, and phrases. Once successful, keyboard hardware will be removed and replaced with solid flat surfaces, then angled, curved, soft, etc.
+The "ground truth" for machine learning in each tier would always begin with keyboards under the hands of the Pooook-wearing typists, who would input expected (screen-prompted) characters, words, and phrases. Once accuracy is proven with keyboards in place, the keyboard hardware would be removed and replaced with solid flat surfaces (like a desk),  angled flats (like airplane's fold-down tray), and ultimately curved & softer spots like chair arms and the typists' laps.
 
-This keyboard-first approach will be prescribed to end-user customers as well (whether at home or stores/libraries), so that the software can be personalized to the way each individual typist engages. To achieve snappy time-to-value with the product, it is  essential to the team that Pooook customers have no need to change their behavior. Customers will train the Pooook and not the other way around. 
+This keyboard-first approach would be recommended to end-user customers as well (whether at home or in stores/schools/libraries), so that the software can be personalized to the way each individual typist engages. To achieve snappy time-to-value with the product, the data science goal should be that Pooook customers have no need to change their typing behavior. Customers should train the Pooooks, and not the other way around.
 
 ## The Post-Keyboard Era
 
-Once freed from bulky keyboards, humans can more easily get out into the world - reporting better the truth of what we find there, and what we think about these findings. We should benefit form additional voices, too. For perhaps a billion of us, the 📱 is the only means of connection to the information age. Without full-size keyboard hardware to make composition easy and efficient, some may feel relegated to the role of information accessors, not as much information contributors. It's time the global community benefited from the contributions of all of us 📈.
+Once freed from bulky keyboards, humans can more easily get out into the world - reporting better the truth of what we find there, and what we think about these findings. All of us should benefit form additional voices, too, as perhaps a billion of our fellow travelers on this planet use the 📱 as the only means of connection to the information age. Without full-size keyboard hardware to make composition easy and efficient, some may feel relegated to the role of information accessors, not as much information creators. It's time the internet era benefited from the contributions of all of us 📈.
 
-While Pooook would be first developed for the English QWERTY and Dvorak keyboards, that *certainly* doesn't mean Pooook software models would stop there. In fact, the Pooook team aims to design an API-first platform, so that anyone can extend their Pooook devices to provide precise input as needed, like:
+While Pooook would first be developed for the English QWERTY and Dvorak keyboards, that *certainly* doesn't mean Pooook software models would stop there. In fact, the Pooook data science team should aim to design an API-first platform, so that developers everywhere could extend their Pooook software to provide precise input as needed in more circumstances:
 
- * international ⌨️ s
+ * international languages,
+ * math, science, and industry-specifics,
  * accessibility tools, and more
 
 Isn't it time for wearable precision input devices? Join the Pooook team today!
