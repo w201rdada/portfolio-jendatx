@@ -54,6 +54,6 @@ While Pooook would first be developed for the English QWERTY and Dvorak keyboard
 
  * international languages,
  * math, science, and industry-specifics,
- * accessibility tools, and more
+ * accessibility tools, and more.
 
 Isn't it time for wearable precision input devices? Join the Pooook team today!
