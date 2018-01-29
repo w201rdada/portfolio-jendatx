@@ -29,9 +29,9 @@ In all of the above cases, silently capturing observations (or executing just-in
 
 It's time we kicked our species' reliance on the ⌨️  to the curb. Someday soon, they're going to look about as antiquated as the punch card.
 
-## Kicking the Keyboard Habit
+## How Data Science can Help Kick the Keyboard Habit
 
-Building on the [Ring GINA wearable computer interaction devices](/http://www-bsac.eecs.berkeley.edu/publications/search/send_publication_pdf2client.php?pubID=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and ⌚-style "self-winding" batteries.
+Building on the [Ring GINA wearable computer interaction devices](http://www-bsac.eecs.berkeley.edu/publications/search/zoom.php?urltimestamp=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and ⌚-style "self-winding" batteries.
 
 Prototype users with measurably-strong [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. Beginning on the keyboards themselves, Pooook wearers would parrot prompted alphanumeric characters, and the software would learn how to classify accelerated movement in x-y-z space patterns (inclusive of primary-motion digit AND adjacent digits) into various tiers of increasingly-complex inputs, for example:
 
@@ -42,17 +42,15 @@ Prototype users with measurably-strong [QWERTY](https://en.wikipedia.org/wiki/QW
  * Tier 5 numbers (based on user feedback, version 1 may approach via number-keypad)
  * Tier 6 special characters (@, $, %, +, -, \*, /, etc.)
 
- "Ground truth" for machine learning would always begin with keyboards present AND intended characters prompted onscreen for typist reference. Later tests would move on to user-improvised content, with feedback on accuracy supplied by the typist participants. Once accuracy of the software is solid while keyboards are present, the team will move on to keyboard-less input (first prompted, then improvised) on flat, hard horizontal surfaces. Over time, slanted/vertical solid surfaces and then ultimately pliant and/or curved surfaces (like the users' own legs) would be trained. Both group patterns and personalization of the software will be of interest, as we'll seek to make the product's base "common-denominator" algorithm better and better over time...so later generations of Pooook customers will experience snappy training times (and less frustration) for their own personal Pooook devices.   
+For each tier, the "ground truth" for machine learning must always begin with keyboards under the hands of Pooook-wearing typists, who input screen-prompted characters, words, and phrases. Once successful, keyboard hardware will be removed and replaced with solid flat surfaces, then angled, curved, soft, etc.
+
+This keyboard-first approach will be prescribed to end-user customers as well (whether at home or stores/libraries), so that the software can be personalized to the way each individual typist engages. To achieve snappy time-to-value with the product, it is  essential to the team that Pooook customers have no need to change their behavior. Customers will train the Pooook and not the other way around. 
 
 ## The Post-Keyboard Era
 
-Once we're free of keyboards, we can get out into the world more and record better the truth of what we find there - as well as what we think about it. Who hasn't taken a hike 🏞️, freeing the mind to bring forth the answer to a pressing problem? Capturing spontaneous thoughts for later usage frees the mind to move onto *more* creative thoughts - without having to concentrate on storage of thoughts 1 through 37...
+Once freed from bulky keyboards, humans can more easily get out into the world - reporting better the truth of what we find there, and what we think about these findings. We should benefit form additional voices, too. For perhaps a billion of us, the 📱 is the only means of connection to the information age. Without full-size keyboard hardware to make composition easy and efficient, some may feel relegated to the role of information accessors, not as much information contributors. It's time the global community benefited from the contributions of all of us 📈.
 
-Yes, there's the danger that humans will use Pooook on a steering wheel while 🚗 - but at least we can keep our eyes on the road (unlike with those tiny 📱  keyboards that have no tactile feedback whatsoever). Combining voice and Pooook input could make traffic jams much more productive.
-
-In addition, there are millions of people for whom the 📱 is their only means of connection to the information age. Without full-size keyboard hardware to make composition easy and efficient, some may feel relegated to the role of information accessors, not as much information contributors. It's time everyone benefited from the contributions 📈 of all of us.
-
-Also just because Pooook would be first developed for the English QWERTY and Dvorak keyboards, that *certainly* doesn't mean Pooook software models would stop there. In fact, the Pooook team aims to design an API-first platform, so that anyone can extend their Pooook devices to provide precise input where needed, like:
+While Pooook would be first developed for the English QWERTY and Dvorak keyboards, that *certainly* doesn't mean Pooook software models would stop there. In fact, the Pooook team aims to design an API-first platform, so that anyone can extend their Pooook devices to provide precise input as needed, like:
 
  * international ⌨️ s
  * accessibility tools, and more
