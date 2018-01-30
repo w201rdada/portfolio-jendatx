@@ -35,9 +35,9 @@ It's time we kicked our species' reliance on the ⌨️  to the curb. Someday so
 
 ## How Data Science can help Kick the Keyboard Habit
 
-Building on the Ring GINA wearable computer interaction devices [@greenspun_ring_2014] developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and wristwatch-style "self-winding" batteries.
+Building on the Ring GINA wearable computer interaction devices <span class="citation">(Greenspun <a href="#ref-greenspun_ring_2014">2014</a>)</span> developed in UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and wristwatch-style "self-winding" batteries.
 
-Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikipedia.org/wiki/QWERTY){target="new"} and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. For each tier in the increasingly-complex standard keyboard inputs noted below, the data science team would design software to classify Pooook-sensed accelerated finger movements in x-y-z space, outputting granular values corresponding to typed input:
+Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. For each tier in the increasingly-complex standard keyboard inputs noted below, the data science team would design software to classify Pooook-sensed accelerated finger movements in x-y-z space, outputting granular values corresponding to typed input:
 
  * Tier 1 letters: "a" vs "q" and "z", "f" vs "r" and "v", etc.
  * Tier 2 essential punctuation: spacebar, return, delete, apostrophe, comma, period...
