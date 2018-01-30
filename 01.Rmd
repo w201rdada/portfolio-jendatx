@@ -16,7 +16,7 @@
 
 Picture a desk worker, stepping out for lunch - only to have his or her phone blow up with texts, messages, and emails 🔥📱🔥. Should this mid-day "break" be spent mentally composing - and hoping to later recall - intended replies until back at a keyboard? Or face-down, inefficiently stabbing at a tiny alphabet?
 
-These choices are especially painful for those of us who can touch-type with speed and accuracy. We're the ones who type only a *little* slower than we think. We're the ones who find voice recognition software especially galling: all that imprecision with key people/place/product names, punctuation and formatting requires time-consuming rework.
+These choices are especially painful for those of us who can touch-type with speed and accuracy. We're the ones who type only a *little* slower than we think. We're the ones who find voice recognition software especially galling: all that imprecision with key people/place/product names, punctuation and formatting requires time-consuming rework. Not to mention that dictating sensitive content requires constant access to a quiet, private place - lest we be overheard.
 
 What we want is a way to untether our typing skills...without having to ditch years of muscle memory. There is a "coming soon" product called Tap that purports to offer keyboard-free gesture recognition for "typing, gaming, music and more," but this device requires users spend hours getting trained with uncomfortable new fingerings ("d" is typed by pressing down with the middle and pinky fingers, while lifting the ring finger, for instance). If we wanted to learn guitar- or piano-like chord fingers, we'd pick up a musical instrument! Instead, it's time a wearable be designed for our existing - and valuable - user behavior, which is already standardized via QWERTY and Dvorak keyboards.      
 
@@ -37,7 +37,7 @@ It's time we kicked our species' reliance on the ⌨️  to the curb. Someday so
 
 Building on the [Ring GINA wearable computer interaction devices](http://www-bsac.eecs.berkeley.edu/publications/search/zoom.php?urltimestamp=1381271517) developed by Joseph Greenspun and Kristofer S. J. Pister of UC Berkeley's Department of Electrical Engineering and Computer Science, the Pooook flexible knuckle-sets would first be designed and 3D printed with the end goal being to insert the necessary accelerometers, Bluetooth connectors, and wristwatch-style "self-winding" batteries.
 
-Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. For each tier in the increasingly-complex standard inputs noted below, the data science team would design software to classify Pooook-sensed accelerated finger movements in x-y-z space, outputting granular values corresponding to keyboard input:
+Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikipedia.org/wiki/QWERTY) and/or [Dvorak](https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard) touch-typing skills would be needed to assist with the machine learning portion of the project. For each tier in the increasingly-complex standard keyboard inputs noted below, the data science team would design software to classify Pooook-sensed accelerated finger movements in x-y-z space, outputting granular values corresponding to typed input:
 
  * Tier 1 letters: "a" vs "q" and "z", "f" vs "r" and "v", etc.
  * Tier 2 essential punctuation: spacebar, return, delete, apostrophe, comma, period...
@@ -46,13 +46,13 @@ Touch-typing testers with measurably fast and accurate [QWERTY](https://en.wikip
  * Tier 5 numbers (both inline and via number-keypad extension)
  * Tier 6 special characters (@, $, %, +, -, \*, /, etc.)
 
-The "ground truth" for machine learning in each tier would always begin with keyboards under the hands of the Pooook-wearing typists, who would input expected (screen-prompted) characters, words, and phrases. Once accuracy is proven with keyboards in place, the keyboard hardware would be removed and replaced with solid flat surfaces (like a desk),  angled flats (like airplane's fold-down tray), and ultimately curved & softer spots like chair arms and the typists' laps.
+The "ground truth" for machine learning in each tier would always begin with keyboards under the hands of the Pooook-wearing typists, who would input expected (screen-prompted) characters, words, and phrases. Once accuracy is proven with keyboards in place, the keyboard hardware would be removed and replaced with solid flat surfaces (like a desk),  angled flats (like an airplane's fold-down tray), and ultimately curved & softer spots like chair arms and the typists' laps.
 
 This keyboard-first approach would be recommended to end-user customers as well (whether at home or in stores/schools/libraries), so that the software can be personalized to the way each individual typist engages. To achieve snappy time-to-value with the product, the data science goal should be that Pooook customers have no need to change their typing behavior. Customers should train the Pooooks, and not the other way around.
 
 ## The Post-Keyboard Era
 
-Once freed from bulky keyboards, humans can more easily get out into the world - reporting better the truth of what we find there, and what we think about these findings. We can also decrease delays and forgotten actions, as we won't have to put off until later that which we can do RIGHT. NOW.
+Once freed from bulky keyboards, humans can more easily get out into the world - reporting better the truth of what we find there, and what we think about these findings. We'll procrastinate and forget less, as we won't have to put off until later that which we can do RIGHT. NOW.
 
 All of us could benefit, too, from additional contributors. Perhaps a billion of our fellow travelers on this planet use the 📱 as the only means of connection to the information age. Without full-size keyboards to make prose composition easy and efficient, some may feel relegated to the role of information accessors, not as much information creators. It's time the internet era benefited from the voices and ideas of all of us 📈.
 
