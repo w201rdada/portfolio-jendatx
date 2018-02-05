@@ -1,10 +1,10 @@
 # Pooook Prose Knuckles {#Pooook-Prose-Knuckles-like-brass-knuckles-for-the-information-age}
 
-![Version 0 prototype design](https://github.com/w201rdada/portfolio-jendatx/img/Pooook_proto_Tinkercad.png)
+![Prototype design v0.1](https://w201rdada.github.io/portfolio-jendatx/img/Pooook_proto_Tinkercad.png)
 
 #### Keywords {wearables, touch type, keyboarding, knuckles}
 
-## Why are we still Chained to our Keyboards?
+## Still Chained to our Keyboards?
 
 Picture a desk worker, stepping out for lunch - only to have his or her phone blow up with texts, messages, and emails 🔥📱🔥. Should this mid-day "break" be spent mentally composing - and hoping to later recall - intended replies until back at a keyboard? Or face-down, inefficiently stabbing at a tiny alphabet on a tiny screen?
 
@@ -16,16 +16,16 @@ Instead, it's time we design a wearable solution that leverages our time-tested 
 
 And it's not just desk workers who could benefit from *board-cutting* in addition to cord-cutting. Picture:
 
-* the farmer 👨‍🌾 inspecting a field,
+* the farmer 👩🏼‍🌾 inspecting a field,
 * the scientist 👨🏾‍🔬 elbows-deep in an experiment,
-* the investigative journalist 🕵️‍♀️ chasing a quickly-developing 📰 story
+* the investigative journalist 🕵🏼 chasing a quickly-developing 📰 story
 * the surgeon 👩‍⚕️ already prepped for surgery,
 * the activist blogger 🧕🏽 attending a protest
 * the cop 👮🏽 out walking the beat, etc.
 
 In all of the above cases, silently capturing observations (or executing just-in-time precision searches) could be invaluable. There's really no need for our species' continued reliance on the keyboard. Someday soon, keyboards are going to look about as antiquated as the punch card.
 
-## How Data Science can help Kick the Keyboard Habit
+## Data Science to Kick the Keyboard Habit
 
 The Pooook Prose Knuckles product concept is to embed the necessary sensor circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. The consumer owning a pair of Pooooks would pair them with a phone or tablet, and then simply parrot a few on-screen prompts to train their personalized wearables to interpret their individual typing style.
 
