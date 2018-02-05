@@ -1,6 +1,6 @@
 # Pooook Prose Knuckles {#Pooook-Prose-Knuckles-like-brass-knuckles-for-the-information-age}
 
-![Prototype design v0.1](../img/Pooook_proto_Tinkercad.png)
+![Prototype design v0.1](../../img/Pooook_proto_Tinkercad.png)
 
 #### Keywords {wearables, touch type, keyboarding, knuckles}
 
