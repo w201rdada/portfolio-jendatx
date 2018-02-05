@@ -25,7 +25,7 @@ And it's not just desk workers who could benefit from *board-cutting* in additio
 
 In all of the above cases, silently capturing observations (or executing just-in-time precision searches) could be invaluable. There's really no need for our species' continued reliance on the keyboard. Someday soon, keyboards are going to look about as antiquated as the punch card.
 
-## Data Science to the Rescue
+## Data Science to Kick the Keyboard Habit
 
 The Pooook Prose Knuckles product concept is to embed the necessary sensor circuits into a pair of wearable input devices having the form factor of brass knuckles, but bendy like those Livestrong bracelets. The consumer owning a pair of Pooooks would pair them with a phone or tablet, and then simply parrot a few on-screen prompts to train their personalized wearables to interpret their individual typing style.
 
