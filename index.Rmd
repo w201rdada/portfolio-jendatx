@@ -23,6 +23,10 @@ readLines('https://www.zotero.org/api/users/4668935/collections/7KHPHW7F/items/t
 ```{r prototype-design,echo=FALSE,fig.cap='Prototype Design',fig.align='center',out.width='80%'}
 knitr::include_graphics('img/Pooook_proto_Tinkercad.png')
 ```
+<!-- You can include images saved within your repo... -->
+```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
+knitr::include_graphics('img/hello-world.png')
+```
 
 Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
 
