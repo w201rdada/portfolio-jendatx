@@ -1,6 +1,8 @@
 # Pooook Prose Knuckles {#Pooook-Prose-Knuckles-like-brass-knuckles-for-the-information-age}
 
-![Prototype design v0.1]("/img/Pooook_proto_Tinkercad.png")
+```{r prototype-design,echo=FALSE,fig.cap='Prototype Design',fig.align='center',out.width='100%'}
+knitr::include_graphics('img/Pooook_proto_Tinkercad.png')
+```
 
 #### Keywords {wearables, touch type, keyboarding, knuckles}
 
