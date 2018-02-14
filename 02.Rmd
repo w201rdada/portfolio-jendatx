@@ -11,6 +11,9 @@ About 40% of crashes take place at intersections [National Highway Traffic Safet
 Planners have long studied dangerous intersections where - time and time again - people and property get damaged, reports get written, debris is cleared away, and then traffic flow continues...until the next crash. What if, instead of waiting for a slowly-increasing number of smart cars to learn to navigate every possible condition, we invested in known-bad intersections, turning them into connected objects - that know their own historical pitfalls and are given the functionality to monitor and alert users to potential dangers?
 
 
+```{r danger-hill,echo=FALSE,fig.cap='Turn left at this intersection at your own risk',fig.align='center'}
+knitr::include_url('https://drive.google.com/file/d/1HZKlDUrdr0ht8A2i0b5phq_jJmYjYLdX/preview')
+```
 
 There are some investigating this approach, placing cameras at intersections in order to use computer vision to detect, classify and warn of potential conflicts. This work with video is challenging, however, "due to the constant change of orientation and appearance of pedestrians and cyclists"[Transportation Research]. The following proposal recommends another path, relying on less variable characteristics to deliver more predictable data at costs below those of installing video cameras at every corner.
 
