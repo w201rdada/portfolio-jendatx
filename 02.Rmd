@@ -1,25 +1,34 @@
-# Let Drivers See Around Corners  {#safer-intersections-let-drivers-see-around-corners}
+# Let Drivers See Around Corners  {#self-sensing-intersections-let-drivers-see-around-corners}
 
-#### Keywords {traffic deaths, safe driving, killer intersections, connected cars}
+#### Keywords {traffic fatalities, intersection crash, safer intersections, connected cars, self-driving cars, autonomous vehicles}
 
-## Instrumenting Low-Visibility Intersections Could Save Lives
+## Self-Sensing Intersections Could Save Lives
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+Every day, thousands of lives are lost worldwide when cars collide with each other and with other roadway users (pedestrians, cyclists, etc.)[Association for Safe International Road Travel]. Perhaps 50 Million people are injured in this way each year, causing untold pain and productivity loss. Many are counting on the advent of self-driving cars to cure the problem, yet it could very well be decades before any given country's fleet is fully automated.
+
+About 40% of crashes take place at intersections [National Highway Traffic Safety Administration], and it has been determined that over 50% of those crashes are due to  inadequate surveillance and turning with an obstructed view. These causes point directly to a lack of information on-hand, something that we in the so-called *information age* should be able to address.
+
+Planners have long studied dangerous intersections where - time and time again - people and property get damaged, reports get written, debris is cleared away, and then traffic flow continues...until the next crash. What if, instead of waiting for a slowly-increasing number of smart cars to learn to navigate every possible condition, we invested in known-bad intersections, turning them into connected objects - that know their own historical pitfalls and are given the functionality to monitor and alert users to potential dangers?
+
+
+
+There are some investigating this approach, placing cameras at intersections in order to use computer vision to detect, classify and warn of potential conflicts. This work with video is challenging, however, "due to the constant change of orientation and appearance of pedestrians and cyclists"[Transportation Research]. The following proposal recommends another path, relying on less variable characteristics to deliver more predictable data at costs below those of installing video cameras at every corner.
 
 ## Informing Drivers with Street-Mounted Sensors, Machine Learning, & Mobile Phones
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+The key to this Data Science approach lies in the measurement and classification of momentum, which literally takes into account both mass and velocity. Out-of-the-way curb-mounted vibration sensors would be adhered like meter markers along all input routes to the intersection in question.  These would communicate their readings via Bluetooth to the intersection's own sensor network hub, which would be connected to the internet.
+
+The Data Scientists would in effect train the intersection to translate detected momentum into risk categories (from cat to tricycle to skateboard, bicycle, etc.). Ground truth could be provided by putting detours in effect and having test subjects approach the intersection via all routes and methods. Once opened with sensor networks live, intersections could be monitored and adjusted manually by transportation specialists working with the Data Science team for a time. Intersection signage could indicate pilot and ultimately full self-sensing mode.  
+
+The intersection's status (for instance, 2 pedestrians and a stroller waiting at corner A, 3 cars inbound to corner B, and 1 bicycle stationary at corner c) would be broadcast locally in real-time to the "See Around Corners" mobile app. Drivers with the app installed would be given voice warnings, like "Incoming on your left: cyclist!" (It's important that these be verbal, as drivers should not be touching or looking at their phones while in motion).
+
+Consider also whether cars could tap into the network (as they may know route: turning left or right). Consider whether auto insurance companies might recommend the app to their subscribers.
 
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+## Self-Driving Cars Must Co-Exist with Self-Sensing Intersections
 
+Self-driving cars are the future. And that's great. When cars can keep each other informed about which resources are needed by whom and when, we'll all be better off.
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+But mixed-mode transit is here to stay, and therefore we can't expect vehicles alone to carry all the burden of preventing roadway injury and death - by just keeping each other informed of their routes. There are too many other pieces constantly in play.
 
-## Self-Driving Cars alongside Self-Sensing Intersections
-
-Self-driving cars are the future. And that's great. When cars can keep each other informed of which resources are needed and when, we'll all be better off.
-
-But mixed-mode transit is also here to stay. I've no doubt that cars, buses, and trains will find ways to co-exist in the connected future. We shouldn't, however, rely entirely on vehicles arranging traffic in an amongst themselves entirely. We can't expect cyclists, pedestrians, strollers, wheelchairs, inline-skaters, cross-country skiers, and others to purchase (and constantly carry) devices designed to connect with other people's modes of transit. 
+For instance, while > 90% of all road fatalities occur in low and middle-income countries, these countries possess < 50% of the world's vehicles [ASIRT]. How can this be? The essential insight is that nearly half of all deaths on the world’s roads strike those *without* cars: these are victims who walk or ride alongside cars with the least protection. Morally, then, we must design traffic safety solutions that anticipate the presence travelers of every form factor - who won't be plugged into the self-driving vehicle network. We can't take for granted that all these travelers will be willing or able to purchase (and constantly carry) devices designed to connect with other people's vehicles. Instead, we should make intersections themselves smarter, making plans to take every one of us into account. < insert emojis for cyclists, pedestrians, strollers, wheelchairs, rickshaws, skateboarders, cross-country skiers, and more.>
