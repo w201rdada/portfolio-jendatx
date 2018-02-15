@@ -10,7 +10,7 @@ About 40% of crashes take place at intersections [National Highway Traffic Safet
 
 Planners have long studied dangerous intersections where - time and time again - people and property get damaged, reports get written, debris is cleared away, and then traffic flow continues...until the next crash. What if, instead of waiting for a slowly-increasing number of smart cars to learn to navigate every possible condition, we invested in known-bad intersections, turning them into connected objects - that know their own historical pitfalls and are given the functionality to monitor and alert users to potential dangers?
 
-
+<p>
 ```{r danger-hill,echo=FALSE,fig.cap='You want to see around this corner',fig.align='center'}
 knitr::include_url('https://drive.google.com/file/d/1HZKlDUrdr0ht8A2i0b5phq_jJmYjYLdX/preview')
 ```
