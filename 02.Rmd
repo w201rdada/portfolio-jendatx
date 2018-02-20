@@ -1,25 +1,36 @@
-# My second cool idea {#slug-two}
+# See Around Corners for Safety {#self-sensing-intersections-let-drivers-see-around-corners}
 
-#### Keywords {-}
+#### Keywords {traffic fatalities, self-driving cars, autonomous vehicles, smart intersections}
 
-yaba, daba, do
+## Self-Sensing Intersections Could Save Lives
 
-## A beginning.
+Every day, thousands of lives are lost worldwide when cars collide with each other and with other roadway users (pedestrians, cyclists, etc.)[Association for Safe International Road Travel]. Perhaps 50 Million people are injured in this way each year, causing untold pain and productivity loss. Many are counting on the advent of self-driving cars to cure the problem, yet it could very well be decades before any given country's fleet is fully automated. Let's not wait on that solution.
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+About 40% of crashes take place at intersections [National Highway Traffic Safety Administration], and it has been determined that over 50% of those crashes are due to "inadequate surveillance" and "turning with an obstructed view". These causes point directly to a lack of information on-hand, something that we in the so-called *information age* should be able to address.
 
-## A middle.
+Planners have long studied dangerous intersections where - time and time again - people and property get damaged, reports get written, debris is cleared away, and then traffic flow continues...until the next crash. What if, instead of waiting for a slowly-increasing number of smart cars to learn to navigate every possible condition, we invested in known-bad intersections, turning them into connected objects - that know their own historical pitfalls and are given the functionality to monitor and alert users to potential dangers?
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
-
-
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
+```{r danger-hill,echo=FALSE,fig.cap='Proceed with care',fig.align='center'}
+knitr::include_url('https://drive.google.com/file/d/1HZKlDUrdr0ht8A2i0b5phq_jJmYjYLdX/preview')
 ```
 
+Some are investigating this approach, placing cameras at intersections in order to use computer vision to detect, classify and warn of potential conflicts. This work with video is challenging, however, "due to the constant change of orientation and appearance of pedestrians and cyclists"[Transportation Research]. The following proposal recommends another path, relying on less variable characteristics in order to deliver more predictable data ... perhaps at costs that could get us more coverage, much sooner.
 
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+## Data Science for Informed Intersections
 
-## An end.
+The key to this new approach lies in the classification of momentum as detected by sequences of small, inexpensive vibration sensors. As momentum is literally a measure of mass in motion, this approach marries the predictability of a factor that won't change (mass) with a factor that certainly can (velocity = speed + direction). The fundamental question is: can software both detect the presence of intersection users AND inform other users, all quickly enough (and with enough accuracy) to prevent resource contention in the form of a collision?
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+This proposal would aim to make use of low-profile vibration sensors, mounted along curb sides/road shoulders on the approach to problematic intersection. These sensors would need to be slim, weather-proof, and well-adhered. They should be connected so as to communicate their identity, location, and vibration readings wirelessly to the intersection's own sensor network hub, which should also be connected to the internet. Note that no personally-identifiable information would be transmitted (unlike with cameras); this should make public acceptance easier.
+
+Once a pilot intersection is set up for detection and signal reception/connection, the Data Science team would supervise training of the smart intersection software so that the intersection can behave as a true node in the transit grid. The software would need to be able to translate detected momentum patterns into risk categories (identifying, for instance, everything from a 🐈 or 🛴 or 🚴‍♀️ or 🚚, etc.). Ground truth could be provided for training by implementing temporary detours while testers use the intersection via all common routes and methods.  
+
+The intersection's status (for instance, 2 pedestrians approaching uphill, plus a delivery van barreling downhill) could be broadcast locally in real-time to a "See Around Corners" smart intersection mobile app. Commuters who frequent dangerous intersections could download and activate the app to receive voice warnings, such as "Incoming downhill!" or "On your left!" Notice that these commuters could be drivers, pedestrians, cyclists, etc. #NoAutoRequired
+
+## Self-Driving Cars Must Co-Exist with Self-Sensing Intersections
+
+Self-driving cars are here, and more are on the way, and that's great. When cars can keep each other informed about which resources are needed by whom and when, accident rates, suffering, and costs should decrease.
+
+But mixed-mode transit is here to stay, and therefore we can't expect vehicles alone to carry all the burden of preventing roadway injury and death. There are too many other actors in this play. For instance, while > 90% of all road fatalities occur in low and middle-income countries, these countries possess less than half of the world's vehicles [ASIRT]. How can this be? The essential insight is that nearly half of all deaths on the world’s roads impact those *without* cars: these are victims who walk or ride alongside cars (referred to as "vulnerable roadway users"). The truism that a society should be judged on how it cares for its most vulnerable certainly applies to intersection safety.
+
+Morally, then, we should be designing traffic safety solutions designed to fold in (but not rely on) autonomous vehicles. Every node - including self-sensing intersections - in our transit grid can help. It's time we smarten up our intersections so they can serve and protect us all.
+ 🚌 - ♿ - 🏍️ - 🚒 - 🚶🏿 - 🛵 - 🛹 - 🏎️ - ⛹️‍♀️ - 🛴 - 🏃🏼 - 🚙 - 🚴🏽‍♀️ - 🚓
