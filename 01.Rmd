@@ -1,16 +1,8 @@
 # Pooook Prose Knuckles {#brass-knuckles-for-the-information-age}
 
-<<<<<<< HEAD
 ```{r prototype-design,echo=FALSE,fig.cap='Prototype Design',fig.align='center',out.width='100%'}
 knitr::include_graphics('img/Pooook_proto_Tinkercad.png')
 ```
-=======
-#### Abstract {-}
-
-(ref:abs1)
-
-#### Keywords {-}
->>>>>>> d0372646eb57d9f3409fedd0d8adf79b0c083b1c
 
 #### Keywords {wearables, touch type, keyboarding, knuckles}
 
@@ -26,10 +18,13 @@ Instead, it's time we design a wearable solution that leverages our time-tested 
 
 And it's not just desk workers who could benefit from *board-cutting* in addition to cord-cutting. Picture:
 
-* the farmer 👩🏼‍🌾 inspecting a field,
-* the scientist 👨🏾‍🔬 elbows-deep in an experiment,
+* the farmer 👩🏼
+🌾 inspecting a field,
+* the scientist 👨🏾
+🔬 elbows-deep in an experiment,
 * the investigative journalist 🕵🏼 chasing a quickly-developing 📰 story
-* the surgeon 👩‍⚕️ already prepped for surgery,
+* the surgeon 👩
+⚕️ already prepped for surgery,
 * the activist blogger 🧕🏽 attending a protest
 * the cop 👮🏽 out walking the beat, etc.
 
