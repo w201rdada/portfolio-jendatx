@@ -1,6 +1,14 @@
 # See Around Corners for Safety {#self-sensing-intersections-let-drivers-see-around-corners}
 
+<<<<<<< HEAD
 #### Keywords {traffic fatalities, self-driving cars, autonomous vehicles, smart intersections}
+=======
+#### Abstract {-}
+
+(ref:abs2)
+
+#### Keywords {-}
+>>>>>>> d0372646eb57d9f3409fedd0d8adf79b0c083b1c
 
 ## Self-Sensing Intersections Could Save Lives
 
