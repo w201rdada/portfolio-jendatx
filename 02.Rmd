@@ -23,11 +23,13 @@ The key to this new approach lies in the classification of momentum as detected 
 This proposal would aim to make use of low-profile vibration sensors, mounted along curb sides/road shoulders on the approach to problematic intersection. These sensors would need to be slim, weather-proof, and well-adhered. They should be connected so as to communicate their identity, location, and vibration readings wirelessly to the intersection's own sensor network hub, which should also be connected to the internet. Note that no personally-identifiable information would be transmitted (unlike with cameras); this should make public acceptance easier.
 
 Once a pilot intersection is set up for detection and signal reception/connection, the Data Science team would supervise training of the smart intersection software so that the intersection can behave as a true node in the transit grid. The software would need to be able to translate detected momentum patterns into risk categories, identifying, for instance:
-   * 🐈 vs.
-   * 🛴 vs.
-   * ♿ vs.
-   * 🚴♀️ vs.
-   * 🚚, etc.
+
+* a cat 🐈 vs.
+* a scooter commuter 🛴 vs.
+* a wheelchair user ♿ vs.
+* a cyclist 🚴♀️ vs.
+* a giant delivery truck 🚚, etc.
+
 Ground truth could be provided for training by implementing temporary detours while testers use the intersection via common routes and methods, including any known-hard-to-detect edge-cases, especially for vulnerable populations.  
 
 The intersection's status (for instance, 2 pedestrians approaching uphill, plus a delivery van barreling downhill) could be broadcast locally in real-time to a "See Around Corners" smart intersection mobile app. Commuters who frequent dangerous intersections could download and activate the app to receive voice warnings, such as "Incoming downhill!" or "On your left!" Notice that these commuters could be drivers, pedestrians, cyclists, etc. #NoAutoRequired
