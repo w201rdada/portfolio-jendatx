@@ -4,7 +4,7 @@ author: "Jennifer Darrouzet"
 date: "MIDS Spring 2018"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: references.bib
+bibliography: ["references.bib","references2.bib"]
 link-citations: yes
 biblio-style: apalike
 ---
@@ -20,7 +20,7 @@ readLines('https://www.zotero.org/api/users/4668935/collections/7KHPHW7F/items/t
 # Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='right',out.width='50%'}
+```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
 knitr::include_graphics('img/hello-world.png')
 ```
 
