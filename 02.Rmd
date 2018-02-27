@@ -14,7 +14,7 @@ Planners have long studied dangerous intersections where - time and time again -
 knitr::include_url('https://drive.google.com/file/d/1HZKlDUrdr0ht8A2i0b5phq_jJmYjYLdX/preview')
 ```
 
-There are some investing in this way, wiring up cameras at intersections in order to use computer vision to detect, classify and warn of potential conflicts. This work with video is challenging, however, "due to the constant change of orientation and appearance of pedestrians and cyclists"[Transportation Research]. The following proposal recommends another path, relying on less variable characteristics. The objective is to find a solution that is inexpensive and effective at preventing collisions and the suffering they cause.
+There are some investing in this way, wiring up cameras at intersections in order to use computer vision to detect, classify and warn of potential conflicts. This work with video is challenging, however, "due to the constant change of orientation and appearance of pedestrians and cyclists"[@zangenehpour_automated_2015]. The following proposal recommends another path, relying on less variable characteristics. The objective is to find a solution that is inexpensive and effective at preventing collisions and the tremendous harm they cause.
 
 ## The Data Science of Smart Intersections
 
