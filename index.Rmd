@@ -13,34 +13,31 @@ biblio-style: apalike
 ```{r init,include=FALSE,echo=FALSE}
 library(magrittr)
 readLines('https://www.zotero.org/api/users/4668935/collections/7KHPHW7F/items/top?limit=3&format=bibtex&key=qjxa6FVWROcANpn1pWRo6aQz&v=1') %>% writeLines('references.bib')
-
 ```
 
 
 # Welcome! {-}
 
-<!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
+<!-- Is this the right way to embed a video?-->
+
+```{r hello-jend,echo=FALSE,fig.cap='Hello MIDS',fig.align='center'}
+knitr::include_url('https://youtu.be/1oxKCi87I5s')
 ```
 
-Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
+You're in the right place to check out Jennifer Darrouzet's RDADA portfolio.
 
 ### Abstract of my first cool idea {-}
 
-(ref:abs1) Hi I'm an abstract for your first big idea! I'm also a [text reference](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#text-references), which is a line of text you can reuse in several places. Use me to write a one paragraph abstract and place it in `index.Rmd` as well as under the title of `01.Rmd`. Once defined, you can reuse me simply by writing `(ref:abs1)` where you want this text to go.
-
-(ref:abs1)
+Pooook Prose Knuckles are a pair of wearable devices - in the "brass knuckles" format - that support keyboard-free QWERTY or Dvorak typing no matter where the user happens to be. Consumers pair their Pooooks with any mobile device, and then sit at a keyboard for a few minutes to parrot a few phrases that train the included machine learning software to recognize their own personalized typing habits. Wearing Pooooks out and about, neither the scientist in the field nor the cop on the street must wait until they're back at a desk to perform a real-time precision search or record a critical observation - all without making a sound.
 
 ### Abstract of my second cool idea {-}
 
-Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  aliqua irure  photo booth neutra banh mi fanny pack.  Butcher fam heirloom marfa.  Tilde reprehenderit  snackwave tempor.  Qui  pop-up kitsch dolor.  Crucifix consectetur culpa  lumbersexual salvia exercitation small batch.  Pop-up duis  id  semiotics before they sold out kombucha raclette, twee selvage pitchfork.
-
-
-(ref:abs2)
+The "See Around Corners" project uses IoT sensors and edge computing to smarten-up dangerous intersections. Known-problematic intersections will be fitted out with arrays of inexpensive vibration sensors, and a team of Data Scientists will train each intersection node to classify and predict trajectories for all roadway user types - be they pedestrians, cyclists, vehicles, etc. No personally-identifiable information need be stored or transmitted over the internet. Working with the Vision Zero Network, the team will help auto-braking and self-driving car manufacturers make use of the smart intersection data, as well as develop a mobile app for use by municipalities and individuals.
 
 ## About the author {-}
+Status_update(Jennifer_Darrouzet) - ...
 
-Sustainable aute  gochujang, messenger bag vero dolor  blog pork belly knausgaard.  Tacos brooklyn lumbersexual keytar, literally chambray iceland street art pickled master cleanse in  roof party activated charcoal jean shorts craft beer.  Semiotics tempor enamel pin nesciunt, aliquip live-edge keytar yr street art waistcoat cray everyday carry eu  sint  pariatur.  Aliquip anim  godard leggings, flexitarian direct trade  humblebrag.  Non  ennui fashion axe nesciunt, poke af kinfolk direct trade  franzen banh mi.  Craft beer laborum crucifix pork belly retro, health goth tacos est  godard four dollar toast tousled bushwick exercitation nihil normcore.  Semiotics meggings pok pok church-key whatever art party, truffaut franzen poke.
+Now: studying data science at UC Berkeley. Next: IoT product scientist. Previously: hardware engineer turned software product manager.
 
+Last known location: Austin, TX
 *Updated: `r Sys.Date()`*
