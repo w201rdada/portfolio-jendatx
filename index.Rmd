@@ -28,7 +28,7 @@ You're in the right place to check out Jennifer Darrouzet's RDADA portfolio.
 
 ### Abstract of my first cool idea {-}
 
-Pooook Prose Knuckles are a pair of wearable devices - in the "brass knuckles" format - that support keyboard-free QWERTY or Dvorak typing no matter where the user happens to be. Consumers pair their Pooooks with any mobile device, and then sit at a keyboard for a few minutes to parrot a few phrases that train the included machine learning software to recognize their own personalized typing habits. Wearing Pooooks out and about, neither the scientist in the field nor the cop on the street must wait until they're back at a desk to perform a real-time precision search or record a critical observation - all without making a sound.
+"Pooook Prose Knuckles" are a pair of wearable devices - in the "brass knuckles" format - that support keyboard-free QWERTY or Dvorak typing no matter where the user happens to be. Consumers pair their Pooooks with any mobile device, and then sit at a keyboard for a few minutes to parrot a few phrases that train the included machine learning software to recognize their own personalized typing habits. Wearing Pooooks out and about, neither the scientist in the field nor the cop on the street must wait until they're back at a desk to perform a real-time precision search or record a critical observation - all without making a sound.
 
 ### Abstract of my second cool idea {-}
 
