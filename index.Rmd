@@ -18,13 +18,11 @@ readLines('https://www.zotero.org/api/users/4668935/collections/7KHPHW7F/items/t
 
 # Welcome! {-}
 
-<!-- Is this the right way to embed a video?-->
-
-```{r hello-jend,echo=FALSE,fig.cap='Hello MIDS',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/1UYOIvhY-LMKNyJwvI1xuRIoNcNhPe1tw/preview')
+```{r intro,echo=FALSE,fig.cap='Hello MIDS',fig.align='center',out.width='100%'}
+knitr::include_graphics('img/RDADA-video-intro-thumbnail.png')
 ```
 
-You're in the right place to check out Jennifer Darrouzet's RDADA portfolio.
+You're in the right place to check out Jennifer Darrouzet's RDADA portfolio. [Play intro video.](https://drive.google.com/file/d/1UYOIvhY-LMKNyJwvI1xuRIoNcNhPe1tw/preview)
 
 ### Abstract of my first cool idea {-}
 
