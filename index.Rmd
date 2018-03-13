@@ -21,7 +21,7 @@ readLines('https://www.zotero.org/api/users/4668935/collections/7KHPHW7F/items/t
 <!-- Is this the right way to embed a video?-->
 
 ```{r hello-jend,echo=FALSE,fig.cap='Hello MIDS',fig.align='center'}
-knitr::include_url('https://youtu.be/1oxKCi87I5s')
+knitr::include_url('https://drive.google.com/file/d/1UYOIvhY-LMKNyJwvI1xuRIoNcNhPe1tw/preview')
 ```
 
 You're in the right place to check out Jennifer Darrouzet's RDADA portfolio.
